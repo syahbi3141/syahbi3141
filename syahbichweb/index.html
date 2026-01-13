@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>For you</title>
+    <meta
+      name="description"
+      content="Developed by Syahbi Ramadani"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://feeldreams.github.io/main-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+  </head>
+  <body>
+    <!-- Background Music -->
+    <audio
+      src="asset/music/musik.mp3"
+      id="linkmp3"
+    ></audio>
+
+    <!-- Overlay -->
+    <div class="overlay"><div id="loveIn" class="blocklove"></div></div>
+
+    <!-- Wallpaper -->
+    <div id="bodyblur">
+      <img src="asset/img/arcilla.jpeg" id="wallpaper" />
+      <!--<div id="thisblur"></div>-->
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div id="stiker1" class="scale0 stiker">
+            <img src="https://htmlku.com/selesaikanya/pusn4.gif" />
+          </div>
+          <h1 id="teks1" class="scale0 quicksand" style="font-size: 22px">
+            Halo Arcilla Alfarah Pranajaya (^^)<br />
+            👋🏼👋🏼👋🏼<br /><br />
+            >>>>
+          </h1>
+        </div>
+
+        <div class="swiper-slide">
+          <div id="stiker2" class="scale0 stiker">
+            <img src="https://feeldreams.github.io/weee.gif" />
+          </div>
+          <h1 id="teks2" class="scale0 quicksand" style="font-size: 18px">
+            Kamu pasti tau siapa saya?<br />
+            Betul, saya Syahbi Ramadani ^_^<br />
+            😝<br /><br />
+            >>>>
+          </h1>
+        </div>
+
+        <div class="swiper-slide">
+          <div id="stiker3" class="scale0 stiker">
+            <img src="asset/stkr/Stiker 15.gif" />
+          </div>
+          <h1 id="teks3" class="scale0 quicksand" style="font-size: 18px">
+            Bagaimana kabar kamu? Baik-baik saja? Aku harap begitu<br />
+            Jika sedang ada masalah, sabar ya, tapi apakah kamu tau?<br />
+            😍<br /><br />
+            >>>>
+          </h1>
+        </div>
+
+        <div class="swiper-slide">
+          <div id="stiker4" class="scale0 stiker">
+            <img src="asset/stkr/Stiker 16.gif" />
+          </div>
+          <h1 id="teks4" class="scale0 quicksand" style="font-size: 18px">
+            Tuhan tidak mungkin memberikan ujian kepada ...<br />
+            ... Manusia jika manusia tersebut tidak kuat ...<br />
+            ... Untuk menjalani ujian yang diberikannya ...<br />
+            ... Yang artinya jika kamu diberikan ujian yang ...<br />
+            ... Sulit, kamu adalah manusia yang kuat! ...<br />
+            ... Karena hanya kamu yang bisa mengatasi ...<br />
+            ... Ujian tersebut (^_^)<br /><br />
+            >>>>
+          </h1>
+        </div>
+
+        <div class="swiper-slide">
+          <div id="stiker5" class="scale0 stiker">
+            <img src="asset/stkr/Stiker 47.gif" />
+          </div>
+          <h1 id="teks5" class="scale0 quicksand" style="font-size: 18px">
+            Oh iya, jika kamu mau ...<br />
+            ... Aku selalu siap untuk ...<br />
+            ... Mendengarkan kamu (^_^) ...<br /><br />
+            >>>>
+          </h1>
+        </div>
+
+        <div class="swiper-slide">
+          <div id="stiker6" class="scale0 stiker">
+            <img src="asset/stkr/Stiker 36.gif" />
+          </div>
+          <h1 id="teks6" class="scale0 quicksand" style="font-size: 18px">
+            Lepasin stressnya yuk<br />
+            Kita main game dulu ^_^<br /><br />
+            >>>>
+          </h1>
+        </div>
+
+        <div class="swiper-slide">
+          <!-- Memory Game -->
+          <div class="main-card">
+            <h1 id="teks7" class="scale0 quicksand" style="font-size: 18px">
+              Yuk! Selesaikan<br /><i class="pink">Memory Game</i> ini yaa! 😆<br />Setelah kamu menyelesaikan game ini<br />Aku ingin berkata sesuatu ^^
+            </h1>
+            <div class="game-board">
+              <div class="card" data-emoji="🤩"></div>
+              <div class="card" data-emoji="❤️"></div>
+              <div class="card" data-emoji="🥳"></div>
+              <div class="card" data-emoji="💖"></div>
+
+              <div class="card" data-emoji="💙"></div>
+              <div class="card" data-emoji="😍"></div>
+              <div class="card" data-emoji="🥰"></div>
+              <div class="card" data-emoji="🤩"></div>
+
+              <div class="card" data-emoji="🤗"></div>
+              <div class="card" data-emoji="💖"></div>
+              <div class="card" data-emoji="💙"></div>
+              <div class="card" data-emoji="🥰"></div>
+
+              <div class="card" data-emoji="❤️"></div>
+              <div class="card" data-emoji="🤗"></div>
+              <div class="card" data-emoji="🥳"></div>
+              <div class="card" data-emoji="😍"></div>
+              <!--onclick="endGame()"-->
+            </div>
+          </div>
+
+          <!-- Ketika Sudah Diselesaikan -->
+          <div id="stiker8" class="abs scale0 stiker" style="margin-top: 70px">
+            <img
+              id="stikerAkhir1"
+              src="https://feeldreams.github.io/pandapanah.gif"
+            />
+            <img
+              id="stikerAkhir2"
+              class="sembunyi"
+              src="https://feeldreams.github.io/cilukba.gif"
+            />
+            <img
+              id="stikerAkhir3"
+              class="sembunyi"
+              src="https://feeldreams.github.io/"
+            />
+            <img
+              id="stikerAkhir100"
+              class="sembunyi"
+              src="https://feeldreams.github.io/emawh.gif"
+            />
+          </div>
+          <div id="scroll-container" class="blocktext scale0 abs">
+            <h1
+              id="teks8"
+              class="quicksand"
+              style="font-size: 17px; font-weight: 400"
+            >
+              <b style="font-size: 19px; font-weight: 700">Yeay!! 🥳 Selamat, kamu berhasil!</b
+              ><br /><br />Aku mau ngomong sesuatu nih 😁<br /><br />Tunggu
+              sebentar ya...
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bullet Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
