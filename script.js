@@ -72,7 +72,7 @@ function katanimasi2() {
   }).go();
 }
 function katanimasi3() {
-  initeksAkhir = `<b>Mwehehe terimakasih Arcilla... Alias Lala </b>yang cantik, manis, dan lucu ^_^<br><b>Sehat terus yaa La 🥳💐</b><b><br><br>- Syahbi Ramadani</b>`;
+  initeksAkhir = `<b>Mwehehe terimakasih Arcilla... Alias Lala </b><br>Yang cantik, manis, dan lucu ^_^<br><b>Sehat terus yaa La 🥳💐</b><b><br><br>- Syahbi Ramadani</b>`;
   new TypeIt("#teksLove", {
     strings: ["" + initeksAkhir],
     startDelay: 1,
@@ -261,4 +261,5 @@ function shuffle() {
     //card.style.order = randomPos;
   });
 }
+
 cards.forEach((card) => card.addEventListener("click", flipCard));
